@@ -15,10 +15,10 @@ Pour le moment, l'application fonctionne mais sont paramétrées en dur dans le 
 
 ## Installation
 
-1 - Demander une clé d'API SNCF (enregistrement gratuit)
-2 - Copier les fichiers sur votre site web.
+* Demander une clé d'API SNCF (enregistrement gratuit)
+* Copier les fichiers sur votre site web.
 
 ## Futures mise à jour
 
-1 - Possibilité de choisir une gare "domicile" et une gare "distante".
-2 - Possibilité de choisir l'affichage de plus de 3 trains
+* Possibilité de choisir une gare "domicile" et une gare "distante".
+* Possibilité de choisir l'affichage de plus de 3 trains
