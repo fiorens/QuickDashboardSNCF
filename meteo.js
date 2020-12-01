@@ -125,9 +125,10 @@ function buttonClickGET()
 	//var Date1 = document.getElementById("Date");
 	var ladate=new Date();
 	
-	var Date_Jour = (   ladate.getFullYear() + "" +(ladate.getMonth()+1)+ "" + ladate.getDate()   );
+	var Date_Jour = (   ladate.getFullYear() + "" +(ladate.getMonth()+1)+ "" + ("0" + ladate.getDate()).slice(-2)   );
 
 	//Date1.innerHTML = Date_Jour;
+	//console.log(Date_Jour);
 
 	var cookie = readCookie("Token");
 	//console.log("Le Token est : " + cookie);
